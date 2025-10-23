@@ -1,0 +1,29 @@
+site_name: LEMBAS
+site_description: "This is a python package for mecahnistically modeling ligand responses."
+
+repo_url: https://github.com/hmbaghdassarian/LEMBAS
+repo_name: hmbaghdassarian/LEMBAS
+
+theme: readthedocs
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          selection:
+            docstring_style: "numpy"
+          rendering:
+            show_source: true
+          options:
+            show_submodules: true
+  - mkdocs-jupyter
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - "Home": index.md
+  - "Tutorial": macrophage_example.ipynb
+  - "API": api.md

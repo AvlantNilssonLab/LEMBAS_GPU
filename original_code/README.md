@@ -1,0 +1,3 @@
+Scripts from the original GPU implementation written by Avlant that were adapted in this repository. Scripts that end in "_mod" were further modified by me to ensure things ran/worked in agreement with my version of the code, particularly for direct comparisons of reproducibility (see commit ID 8f591b3ef1b210ae507ec25a9f70532396caba1a "final fully reproducible lembas" run). 
+
+Notebooks show comparison of outputs from that commit checkpoint between my implementation of the code (_HB) and the modified version of Avlant's code (_AN). The newest version of the code and it's implementation can be viewed in ../docs/macrophage_example.ipynb.
