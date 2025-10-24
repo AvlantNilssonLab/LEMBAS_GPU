@@ -45,7 +45,7 @@ If you are not interested in regenerating all the models i.e 450 models used to 
 | parameter_study_between_conditions    | LEMBAS/data_to_report/fig_1/model_compare  |
 | trained models       | LEMBAS/data_to_report/fig_2_3   |
 | sup_fig_1_2_3       | LEMBAS/data_to_report/sup_fig_1_2_3   |
-Link to Zenodo 
+
 
 #### Data to train models on 
 Data to train the models can be found at: [https://github.com/Lauffenburger-Lab/LEMBAS]
